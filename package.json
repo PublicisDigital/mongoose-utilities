@@ -1,7 +1,7 @@
 {
   "name" : "mongoose-utilities",
   "description" : "a collection of plugins for mongoose",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "homepage" : "https://github.com/janez89/mongoose-utilities",
   "repository" : {
     "type" : "git",
@@ -17,11 +17,11 @@
     "test": "make test && make clean"
   },
   "optionalDependencies" : {
-    "bcrypt": "~0.8.3",
+    "bcrypt": "3.0.7",
     "redis": ">= 0.8.4"
   },
   "dependencies" : { 
-    "mongoose": "~3.6.16"
+    "mongoose": "5.7.5"
   },
   "devDependencies" : {
     "mocha": "~1.12.0"
